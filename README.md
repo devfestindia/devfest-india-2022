@@ -1,4 +1,4 @@
-# DevFest Jalandhar 2022
+# DevFest India 2022
 Standard Web App for Tech Communties. <br>
 [Based on Project Aura](https://github.com/gdg-x/aura) <br>
 
