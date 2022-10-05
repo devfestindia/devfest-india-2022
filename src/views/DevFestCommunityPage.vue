@@ -1,0 +1,96 @@
+<template>
+  <v-main>
+    <v-container fluid class="py-0">
+      <v-row justify="center" align="center">
+        <v-col md="12" sm="12" cols="12" lg="10" class="google-font my-md-6 my-2">
+          <v-container fluid>
+            <v-row align="start" justify="start">
+              <v-col md="11" lg="11">
+                <v-img
+                  :src="require('@/assets/img/DF22-Banner.jpg')"
+                  height="300"
+                  class="white--text align-center"
+                  style="border-radius: 12px; border: 2px solid black"
+                >
+                  <div class="ma-md-15 ma-5">
+                    <p class="mb-n2 devfest-name">
+                      {{ eventData.DevFestName }}
+                    </p>
+                    <a
+                    class="mt-n1"
+                      color="red"
+                      style="font-size: 17px; text-decoration: none"
+                      :href="eventData.CommunityPage"
+                      >{{ eventData.CommunityName }}</a
+                    >
+                    <p class="mt-4 mb-0">{{ getDate(eventData.StartingDate) }}</p>
+                    <p class="mt-0">{{ eventData.Venue }}, {{eventData.City}}, {{eventData.State}}</p>
+
+                    <v-btn :href="eventData.EventLink" target="_blank" rounded color="primary">Register Now
+                        <v-icon right>mdi-open-in-new</v-icon>
+                    </v-btn>
+                  </div>
+                </v-img>
+                
+                <p class="my-4 mb-3 " v-html="eventData.Description">
+                </p>
+
+                <p style="font-size: 15px" class="my-0">
+                <b>Date:</b> {{ getDate(eventData.StartingDate) }} <br>
+                <b>Days:</b> {{ eventData.Days }} <br>
+                <b>Venue:</b> {{ eventData.Venue }}, {{eventData.City}}, {{eventData.State}}
+              </p>
+
+              <p class="mb-0 mt-3"><b>Organized By</b></p>
+              <a
+                color="red"
+                style="font-size: 17px; text-decoration: none"
+                :href="eventData.CommunityPage"
+                >{{ eventData.CommunityName }}</a
+              >
+                <!-- {{ eventData }} -->
+              </v-col>
+            </v-row>
+          </v-container>
+        </v-col>
+      </v-row>
+    </v-container>
+  </v-main>
+</template>
+    
+  <script>
+import devfestData from "../assets/data/devfests.json";
+
+export default {
+  name: "CoCComponent",
+  components: {},
+  data: () => ({
+    data: devfestData,
+    loader: true,
+    eventData: {},
+  }),
+  created() {
+    this.loader = true;
+
+    this.eventData = devfestData.filter(
+      (res) => res.City == this.$route.params.id
+    )[0];
+
+    if (this.eventData == null) {
+      this.$router.push("/devfest");
+    }
+
+    document.title = this.eventData.DevFestName + " | DevFest India 2022";
+  },
+  methods:{
+    getDate(d) {
+      var d = new Date(d).toString().split("GMT");
+      d = d[0].split(" ");
+      return d[1] + " " + d[2] + ", " + d[3];
+    },
+  }
+};
+</script>
+    
+    <style scoped></style>
+    
