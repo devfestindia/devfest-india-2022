@@ -84,9 +84,9 @@ export default {
   },
   methods:{
     getDate(d) {
-      var d = new Date(d).toString().split("GMT");
-      d = d[0].split(" ");
-      return d[1] + " " + d[2] + ", " + d[3];
+      var date = new Date(d).toString().split("GMT");
+      date = date[0].split(" ");
+      return date[1] + " " + date[2] + ", " + date[3];
     },
   }
 };
