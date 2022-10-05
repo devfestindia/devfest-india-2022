@@ -12,7 +12,7 @@
           DevFest India
         </p> -->
         <p class="google-font mt-3" style="font-size: 19px">
-          <v-icon>mdi-calendar-month</v-icon> September - December, 2022
+          <v-icon>mdi-calendar-month</v-icon> September - December
         </p>
         <p
           class="google-font text--secondary"
