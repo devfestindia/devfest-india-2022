@@ -93,11 +93,23 @@
               <p class="mb-0">Organized By</p>
               <a
                 color="red"
-                style="font-size: 17px; text-decoration: none"
+                style="font-size: 17px; text-decoration: underline"
                 :href="item.CommunityPage"
                 >{{ item.CommunityName }}</a
               >
+              
+              <div  v-if="item.CFP.Status==1" class="mt-5">
+              <p class="mb-0">Call For Presentations</p>
+              <a
+                color="red"
+                style="font-size: 17px; text-decoration: underline"
+                :href="item.CFP.Link"
+                >Apply Now by {{ getDate(item.CFP.LastDate) }} </a
+              >
+            </div>
               <br /><br />
+
+              
 
               <v-btn
                 dark

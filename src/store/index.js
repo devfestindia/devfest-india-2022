@@ -19,7 +19,7 @@ export default new Vuex.Store({
       {
         text: "Communities",
         to: "/communities",
-        icon: "mdi-home-outline",
+        icon: "mdi-code-tags",
         meta: {
           showToolbar: true,
           showBottomNav: true,
@@ -28,7 +28,16 @@ export default new Vuex.Store({
       {
         text: "Find an Event",
         to: "/devfest",
-        icon: "mdi-home-outline",
+        icon: "mdi-format-list-group",
+        meta: {
+          showToolbar: true,
+          showBottomNav: true,
+        },
+      },
+      {
+        text: "CFP",
+        to: "/cfp",
+        icon: "mdi-account-group-outline",
         meta: {
           showToolbar: true,
           showBottomNav: true,
@@ -49,7 +58,7 @@ export default new Vuex.Store({
         icon: "mdi-star-outline",
         meta: {
           showToolbar: true,
-          showBottomNav: true,
+          showBottomNav: false,
         },
       }
     ]

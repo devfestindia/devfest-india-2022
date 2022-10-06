@@ -11,7 +11,12 @@
         "EventLink":"https://devfest.gdgjalandhar.com",
         "CommunityPage":"https://gdg.community.dev/gdg-jalandhar",
         "Visible":"true",
-        "State":"Punjab"
+        "State":"Punjab",
+        "CFP":{
+            "Status":"1",
+            "Link":"https://devfestindia.com",
+            "LastDate":"2022-10-16"
+        }
     },
     {
         "City":"Jalandhar",
@@ -25,7 +30,12 @@
         "EventLink":"https://devfest.gdgjalandhar.com",
         "CommunityPage":"https://gdg.community.dev/gdg-jalandhar",
         "Visible":"true",
-        "State":"Punjab"
+        "State":"Punjab",
+        "CFP":{
+            "Status":"1",
+            "Link":"https://devfestindia.com",
+            "LastDate":"2022-10-16"
+        }
     },
     {
         "City":"Jalandhar",
@@ -39,7 +49,12 @@
         "EventLink":"https://devfest.gdgjalandhar.com",
         "CommunityPage":"https://gdg.community.dev/gdg-jalandhar",
         "Visible":"true",
-        "State":"Punjab"
+        "State":"Punjab",
+        "CFP":{
+            "Status":"1",
+            "Link":"https://devfestindia.com",
+            "LastDate":"2022-10-16"
+        }
     },
     {
         "City":"Jalandhar",
@@ -53,6 +68,11 @@
         "EventLink":"https://devfest.gdgjalandhar.com",
         "CommunityPage":"https://gdg.community.dev/gdg-jalandhar",
         "Visible":"true",
-        "State":"Punjab"
+        "State":"Punjab",
+        "CFP":{
+            "Status":"1",
+            "Link":"https://devfestindia.com",
+            "LastDate":"2022-10-16"
+        }
     }
 ]

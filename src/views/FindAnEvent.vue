@@ -12,10 +12,7 @@
                   DevFests in India
                 </p>
                 <p class="my-0 mb-8 h1-subheading">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Asperiores officia molestias qui facilis quibusdam. Esse
-                  soluta ducimus molestias totam dolorem eius hic voluptas
-                  expedita quisquam? Eveniet veniam recusandae illum! Hic.
+                  Communities from each chapter, all over the India have gathered together to make India DevFest a success. Locate your nearest google developer group and join the event right here!
                 </p>
                 <v-container fluid class="ma-0 pa-0">
                   <v-row align="start" justify="start">

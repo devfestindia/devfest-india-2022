@@ -15,7 +15,7 @@ module.exports = {
     'vuetify'
   ],
   pwa: {
-    name: "DevFest Jalandhar",
+    name: "DevFest India 2022",
     workboxPluginMode: "InjectManifest",
     themeColor: "#3D7FF5",
     msTileColor: "#3D7FF5",

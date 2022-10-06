@@ -32,7 +32,7 @@
                   </div>
                 </v-img>
                 
-                <p class="my-4 mb-3 " v-html="eventData.Description">
+                <p class="my-4 mb-3 " style="font-size:110%" v-html="eventData.Description">
                 </p>
 
                 <p style="font-size: 15px" class="my-0">
@@ -48,6 +48,16 @@
                 :href="eventData.CommunityPage"
                 >{{ eventData.CommunityName }}</a
               >
+
+              <div  v-if="eventData.CFP.Status==1" class="mt-5">
+              <p class="mb-0"><b>Call For Presentations</b></p>
+              <a
+                color="red"
+                style="font-size: 17px; text-decoration: underline"
+                :href="eventData.CFP.Link"
+                >Apply now by {{ getDate(eventData.CFP.LastDate) }} </a
+              >
+            </div>
                 <!-- {{ eventData }} -->
               </v-col>
             </v-row>

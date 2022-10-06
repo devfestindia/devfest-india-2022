@@ -2,16 +2,16 @@
   <v-main>
     <v-container fluid class="">
       <v-row justify="center" align="center">
-        <v-col md="12" sm="12" cols="12" lg="10" class="google-font my-10">
+        <v-col md="12" sm="12" cols="12" lg="10" class="google-font my-md-10 my-0">
           <v-container fluid>
             <v-row align="center" justify="center">
               <v-col
                 md="4"
                 sm="12"
                 cols="12"
-                class="order-md-1 order-sm-2 order-2 px-md-7 mt-3 px-0 mb-md-13"
+                class="px-md-7 px-3 mt-3 px-0 mb-md-13 py-0"
               >
-                <div class="d-none d-sm-none d-md-block mb-10">
+                <div class="mb-10">
                   <p class="google-font gdg-h1 mb-0 grey--text text--darken-2">
                     Google Developers Groups Communities across India
                   </p>
@@ -27,7 +27,7 @@
                 md="8"
                 sm="12"
                 cols="12"
-                class="text-center py-md-10 py-5 order-md-2 order-sm-1 order-1"
+                class="text-center py-md-10 py-0 "
               >
                 <div v-if="loading" class="my-md-15 text-center pa-15">
                   <v-progress-circular
