@@ -29,7 +29,7 @@
     data: () => ({
     }),
     created() {
-      document.title = "Page Not Found | DevFest Jalandhar 2022";
+      document.title = "Page Not Found | DevFest India 2022";
     },
   };
   </script>

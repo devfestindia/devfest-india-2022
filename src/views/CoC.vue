@@ -8,7 +8,7 @@
               <v-col md="11" lg="11">
                 <p class="google-font gdg-heading mb-0  grey--text text--darken-2">Code of Conduct</p>
                 <p class="my-0 mb-8 h1-subheading">
-                  All participants of DevFest Jalandhar 2022 event, online
+                  All participants of DevFest India 2022 event, online
                   attendees, event staff, and speakers, must abide by the
                   following policy:
                 </p>
@@ -74,7 +74,7 @@ export default {
     ],
   }),
   created() {
-    document.title = "Code of Conduct | DevFest Jalandhar 2022";
+    document.title = "Code of Conduct | DevFest India 2022";
   },
 };
 </script>

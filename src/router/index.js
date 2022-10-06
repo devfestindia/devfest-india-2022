@@ -56,7 +56,7 @@ const routes = [
   //   component: () =>
   //     import(/* webpackChunkName: "PageNotFound" */ "../views/PageNotFound.vue"),
   //     meta:{
-  //       title:"Page not found | GDG Jalandhar" 
+  //       title:"Page not found | GDG India" 
   //     }
   // },
 ]

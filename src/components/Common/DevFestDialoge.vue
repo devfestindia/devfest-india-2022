@@ -27,10 +27,7 @@
             <div>
               <span>{{ item.DevFestName }}</span>
               <p class="mt-n2" style="font-size: 70%">
-                <v-icon small>mdi-code-tags</v-icon>
-                {{ item.CommunityName }}
-
-                <v-icon class="ml-3" small>mdi-calendar-month</v-icon>
+                <v-icon class="ml-0" small>mdi-calendar-month</v-icon>
                 {{ getDate(item.StartingDate) }}
               </p>
             </div>
@@ -42,7 +39,7 @@
             </div>
           </v-card-subtitle> -->
 
-          <v-card-actions class="mt-n2">
+          <v-card-actions class="mt-n8">
             <v-btn color="primary" text> See More </v-btn>
           </v-card-actions>
         </v-card>

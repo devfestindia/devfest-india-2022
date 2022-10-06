@@ -43,7 +43,7 @@ export default {
     data: devfestData
   }),
   created() {
-    document.title = "DevFests in India | DevFest Jalandhar 2022";
+    document.title = "DevFests in India | DevFest India 2022";
   },
 };
 </script>

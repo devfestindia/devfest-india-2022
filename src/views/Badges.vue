@@ -10,13 +10,13 @@
                 <p
                   class="google-font gdg-heading mb-0 grey--text text--darken-2"
                 >
-                  DevFest Jalandhar Badge
+                  DevFest India Badge
                 </p>
                 <p class="my-0 mb-8 h1-subheading">
                   Now that you are here, how about personalising your DevFest
-                  Jalandhar 2022 profile? Upload an image and generate a
-                  personalised badge with the DevFest Jalandhar 2022 frame. Also
-                  share your image using #DevFestJalandhar on different social
+                  India 2022 profile? Upload an image and generate a
+                  personalised badge with the DevFest India 2022 frame. Also
+                  share your image using #DevFestIndia on different social
                   platforms.
                 </p>
                 
@@ -31,13 +31,13 @@
               >
                 <div class="d-none d-sm-none d-md-block mb-10">
                   <p class="google-font gdg-h1 mb-0 grey--text text--darken-2">
-                    DevFest Jalandhar Badge
+                    DevFest India Badge
                   </p>
                   <p class="google-font" style="font-size: 18px">
                     Now that you are here, how about personalising your DevFest
-                    Jalandhar 2022 profile? Upload an image and generate a
-                    personalised badge with the DevFest Jalandhar 2022 frame.
-                    Also share your image using #DevFestJalandhar on different
+                    India 2022 profile? Upload an image and generate a
+                    personalised badge with the DevFest India 2022 frame.
+                    Also share your image using #DevFestIndia on different
                     social platforms.
                   </p>
                 </div>
@@ -172,7 +172,7 @@ export default {
     banner: null,
   }),
   created() {
-    document.title = "Badges | DevFest Jalandhar 2022";
+    document.title = "Badges | DevFest India 2022";
   },
   methods: {
     upload(e) {
@@ -272,7 +272,7 @@ export default {
     download() {
       const a = document.createElement("a");
       const url = this.canvas.toDataURL("image/png;base64");
-      a.download = "#DevFestJalandhar_badge.png";
+      a.download = "#DevFestIndia_badge.png";
       a.href = url;
       a.click();
     },
