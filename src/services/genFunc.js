@@ -18,13 +18,13 @@ export default {
                 return splitArr[0].substring(0, 1).toUpperCase();
             }
         },
-        getImgUrl(pic, defaultimage = "maleAvatar.jpg") {
-            if (pic.length > 0) {
-                return require('@/assets/img/speakers/' + pic)
-            } else {
-                return require('@/assets/img/common/' + defaultimage);
-            }
-        },
+        // getImgUrl(pic, defaultimage = "maleAvatar.jpg") {
+        //     if (pic.length > 0) {
+        //         return require('@/assets/img/speakers/' + pic)
+        //     } else {
+        //         return require('@/assets/img/common/' + defaultimage);
+        //     }
+        // },
         // getTeamImgUrl(pic, defaultimage = "maleAvatar.jpg") {
         //     if (pic.length > 0) {
         //         return require('@/assets/img/team/' + pic)
