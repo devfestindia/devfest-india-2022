@@ -33,7 +33,7 @@ export default {
   },
   data: () => ({}),
   created() {
-    document.title = "Home Page | DevFest India 2022";
+    document.title = "DevFest India 2022 | Home Page";
   },
 };
 </script>

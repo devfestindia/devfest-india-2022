@@ -26,7 +26,7 @@
                     <p class="mt-4 mb-0">{{ getDate(eventData.StartingDate) }}</p>
                     <p class="mt-0">{{ eventData.Venue }}, {{eventData.City}}, {{eventData.State}}</p>
 
-                    <v-btn :href="eventData.EventLink" target="_blank" rounded color="primary">Register Now
+                    <v-btn :href="eventData.EventLink" target="_blank" rounded color="primary">More Info
                         <v-icon right>mdi-open-in-new</v-icon>
                     </v-btn>
                   </div>
@@ -37,7 +37,7 @@
 
                 <p style="font-size: 15px" class="my-0">
                 <b>Date:</b> {{ getDate(eventData.StartingDate) }} <br>
-                <b>Days:</b> {{ eventData.Days }} <br>
+                <!-- <b>Date:</b> {{ eventData.Days }} <br> -->
                 <b>Venue:</b> {{ eventData.Venue }}, {{eventData.City}}, {{eventData.State}}
               </p>
 
