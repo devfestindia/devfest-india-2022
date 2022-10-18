@@ -17,5 +17,26 @@
             "Link":"",
             "LastDate":""
         }
+        
+    },
+    {
+        "City":"Kolkata",
+        "CommunityName":"GDG Kolkata",
+        "DevFestName":"DevFest Kolkata",
+        "Days":"1",
+        "StartingDate":"2022-11-13",
+        "EndingDate":"2022-11-13",
+        "Venue":"TBD",
+        "Description":"The largest flagship developer conference in Eastern India oragnised by GDG Kolkata.The GDG Kolkata team which has set remarkable achievements by hosting Devfest 18 and 19 with 600+ attendees and over 6000+ registrations and 20+ speakers.",
+        "EventLink":"https://devfest.gdgkolkata.in",
+        "CommunityPage":"https://gdg.community.dev/gdg-kolkata",
+        "Visible":"true",
+        "State":"West Bengal",
+        "CFP":{
+            "Status":"1",
+            "Link":"https://devfest.gdgkolkata.in/cfs",
+            "LastDate":"2022-10-21"
+        }
+        
     }
 ]
