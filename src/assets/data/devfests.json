@@ -77,5 +77,24 @@
             "Link":"https://sessionize.com/devfest-lucknow-2022/",
             "LastDate":"2022-10-23"
         }
+    },
+      {
+        "City":"Guwahati",
+        "CommunityName":"GDG Guwahati",
+        "DevFestName":"DevFest 2022 - GDG Guwahati",
+        "Days":"2",
+        "StartingDate":"2022-12-02",
+        "EndingDate":"2022-12-03",
+        "Venue":"TBD",
+        "Description":"For the first time in North East, we are having one of the biggest Tech Event as Google Developers Group Community. This tech conference is for everybody who is a tech enthusiast or is interested in exploring the new technologies available in today's world.",
+        "EventLink":"https://gdg.community.dev/events/details/google-gdg-guwahati-presents-devfest-2022-gdg-guwahati/",
+        "CommunityPage":"https://gdg.community.dev/gdg-guwahati/",
+        "Visible":"true",
+        "State":"Assam",
+        "CFP":{
+            "Status":"1",
+            "Link":"https://8zmdku5dmyd.typeform.com/to/Q9EugV1R",
+            "LastDate":"2022-11-15"
+        }
     }
 ]
