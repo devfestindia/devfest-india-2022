@@ -58,5 +58,24 @@
             "LastDate":""
         }
         
+    },
+    {
+        "City":"Lucknow",
+        "CommunityName":"GDG Lucknow",
+        "DevFestName":"DevFest Lucknow",
+        "Days":"1",
+        "StartingDate":"2022-10-29",
+        "EndingDate":"2022-10-29",
+        "Venue":"Dr. Akhilesh Das Auditorium",
+        "Description":"The biggest developer conference in Uttar Pradesh oragnised by GDG Lucknow. The GDG Lucknow team welcomes everyone to it's first ever Devfest with sessions on domains ranging over Cloud, Web, Android, Flutter, etc",
+        "EventLink":"https://gdg.community.dev/events/details/google-gdg-lucknow-presents-devfest-lucknow-2022/",
+        "CommunityPage":"https://gdg.community.dev/gdg-lucknow/",
+        "Visible":"true",
+        "State":"Uttar Pradesh",
+        "CFP":{
+            "Status":"1",
+            "Link":"https://sessionize.com/devfest-lucknow-2022/",
+            "LastDate":"2022-10-23"
+        }
     }
 ]
