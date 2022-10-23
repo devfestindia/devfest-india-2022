@@ -39,10 +39,19 @@ export default {
     DevFestDialogeVue,
   },
   data: () => ({
-    data: devfestData.sort(function (a, b) {
-      return new Date(b.StartingDate) - new Date(a.StartingDate);
-    }),
+    data: []
   }),
+  mounted() {
+    const PassedEvents = devfestData.filter((i) => {
+      return new Date(i.StartingDate) - new Date() < 0;
+    });
+    const ToBeHeldEvents = devfestData.filter((i) => { return new Date(i.StartingDate) - new Date() >= 0; });
+    const sortedToBeHeldEvents = ToBeHeldEvents.sort((a, b) => {
+      return new Date(a.StartingDate) - new Date(b.StartingDate);
+    });
+    const results = [...sortedToBeHeldEvents, ...PassedEvents];
+    this.data = results
+  },
   created() {
     document.title = "DevFests in India | DevFest India 2022";
   },
