@@ -96,5 +96,25 @@
             "Link":"https://sessionize.com/devfest-chennai-2022",
             "LastDate":"2022-10-31"
         }
+    },
+    {
+        "City":"Nashik",
+        "CommunityName":"GDG Nashik",
+        "DevFestName":"DevFest Nashik",
+        "Days":"1",
+        "StartingDate":"2022-11-19",
+        "EndingDate":"2022-11-19",
+        "Venue":"Conference hall, NDMVP COE",
+        "Description":"Largest tech-event in Nashik!",
+        "EventLink":"https://gdg.community.dev/events/details/google-gdg-nashik-presents-devfest-nashik",
+        "CommunityPage":"https://gdg.community.dev/gdg-nashik",
+        "Visible":"true",
+        "State":"Maharashtra",
+        "CFP":{
+            "Status":"1",
+            "Link":"https://sessionize.com/devfest-nashik22/",
+            "LastDate":"2022-11-05"
+        }
+        
     }
 ]
