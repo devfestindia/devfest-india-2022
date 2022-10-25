@@ -52,10 +52,16 @@
               <div  v-if="eventData.CFP.Status==1" class="mt-5">
               <p class="mb-0"><b>Call For Presentations</b></p>
               <a
+                v-if="Date(eventData.CFP.LastDate) >= new Date()"
                 color="red"
                 style="font-size: 17px; text-decoration: underline"
                 :href="eventData.CFP.Link"
-                >Apply now by {{ getDate(eventData.CFP.LastDate) }} </a
+                >{{  `Apply now by ${getDate(eventData.CFP.LastDate)}` }}</a
+              >
+              <a
+                v-else
+                class="disabled"
+                >Not accepting proposals anymore</a
               >
             </div>
                 <!-- {{ eventData }} -->

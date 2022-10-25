@@ -16,6 +16,12 @@
   color: #4884f3;
 }
 
+.disabled {
+  pointer-events: none;
+  color: red !important;
+  font-size: 15px
+}
+
 /* Large Scale Display */
 @media screen and (min-width: 600px) {
   .gdg-heading {
