@@ -83,7 +83,7 @@ export default {
     this.loader = true;
 
     this.eventData = devfestData.filter(
-      (res) => res.City == this.$route.params.id
+      (res) => res.City.toLocaleLowerCase() == (this.$route.params.id).toLowerCase()
     )[0];
 
     if (this.eventData == null) {
