@@ -98,7 +98,7 @@
               <div  v-if="item.CFP.Status==1" class="mt-5">
               <p class="mb-0">Call For Presentations</p>
               <a
-                v-if="Date(item.CFP.LastDate) >= new Date()"
+                v-if="new Date(item.CFP.LastDate) >= new Date()"
                 color="red"
                 style="font-size: 17px; text-decoration: underline"
                 :href="item.CFP.Link"
