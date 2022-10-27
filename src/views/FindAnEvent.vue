@@ -43,9 +43,9 @@ export default {
   }),
   mounted() {
     const PassedEvents = devfestData.filter((i) => {
-      return new Date(i.StartingDate) - new Date() < 0;
+      return new Date(i.StartingDate) - new Date().setHours(0,0,0,0) < 0;
     });
-    const ToBeHeldEvents = devfestData.filter((i) => { return new Date(i.StartingDate) - new Date() >= 0; });
+    const ToBeHeldEvents = devfestData.filter((i) => { return new Date(i.StartingDate) - new Date().setHours(0,0,0,0) >= 0; });
     const sortedToBeHeldEvents = ToBeHeldEvents.sort((a, b) => {
       return new Date(a.StartingDate) - new Date(b.StartingDate);
     });
