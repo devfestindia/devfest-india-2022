@@ -98,10 +98,16 @@
               <div  v-if="item.CFP.Status==1" class="mt-5">
               <p class="mb-0">Call For Presentations</p>
               <a
+                v-if="new Date(item.CFP.LastDate) >= new Date()"
                 color="red"
                 style="font-size: 17px; text-decoration: underline"
                 :href="item.CFP.Link"
-                >Apply Now by {{ getDate(item.CFP.LastDate) }} </a
+                >{{  `Apply now by ${getDate(item.CFP.LastDate)}` }}</a
+              >
+              <a
+                v-else
+                class="disabled"
+                >Not accepting proposals anymore</a
               >
             </div>
               <br /><br />
