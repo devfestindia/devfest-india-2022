@@ -117,4 +117,25 @@
         }
         
     }
+    
+{
+        "City":"Durgapur",
+        "CommunityName":"GDG Durgapur",
+        "DevFestName":"DevFest Durgapur",
+        "Days":"1",
+        "StartingDate":"2022-11-27",
+        "EndingDate":"2022-11-27",
+        "Venue":"TBD",
+        "Description":"For the first time in Durgapur, we are having one of the biggest Tech Event as Google Developers Group Community. This tech conference is for everybody who is a tech enthusiast or is interested in exploring the new technologies available in today's world. Come join us for one of the biggest events of all times in Durgapur and also win gift hampers with recognition for active participation.",
+        "EventLink":"https://gdgdurgapur.in",
+        "CommunityPage":"https://gdg.community.dev/gdg-durgapur",
+        "Visible":"true",
+        "State":"West Bengal",
+        "CFP":{
+            "Status":"1",
+            "Link":"https://docs.google.com/forms/d/e/1FAIpQLScH93cNSaDOQM-J0_7OnX24RswoZqrJbCmd3na2Y3IzRXly-A/viewform",
+            "LastDate":"2022-11-05"
+        }
+        
+    }
 ]
