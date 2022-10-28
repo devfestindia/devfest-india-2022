@@ -50,7 +50,20 @@
                       {{ getDate(item.StartingDate) }}
                     </template>
                     <template v-slot:[`item.custom`]="{ item }">
-                      <a :href="item.CFP.Link" target="_black">Apply now</a>
+                      <a
+                        v-if="new Date(item.CFP.LastDate) >= new Date().setHours(0,0,0,0)"
+                        color="red"
+                        style="font-size: 14px; text-decoration: underline"
+                        :href="item.CFP.Link"
+                        target="_black"
+                        >Apply now
+                     </a>
+                      <a
+                        v-else
+                        class="disabled"
+                      >Applications closed
+                      </a>
+                      <!-- <a :href="item.CFP.Link" target="_black">Apply now</a> -->
                     </template>
 
                     <template v-slot:[`item.deadline`]="{ item }">
