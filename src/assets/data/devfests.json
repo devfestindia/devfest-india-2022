@@ -116,5 +116,25 @@
             "LastDate":"2022-11-05"
         }
         
+    },
+    {
+        "City":"Bhubaneswar",
+        "CommunityName":"GDG Bhubaneswar",
+        "DevFestName":"DevFest Bhubaneswar",
+        "Days":"1",
+        "StartingDate":"2022-12-11",
+        "EndingDate":"2022-12-11",
+        "Venue":"Hotel Hindusthan International Bhubaneswar",
+        "Description":"A full-day tech conference for developers of Bhubaneswar. Learn new technologies, network with other developers, boost your career and have fun. ",
+        "EventLink":"https://gdg.community.dev/events/details/google-gdg-bhubaneswar-presents-devfest-2022-bhubaneswar/",
+        "CommunityPage":"https://gdg.community.dev/gdg-bhubaneswar/",
+        "Visible":"true",
+        "State":"Odisha",
+        "CFP":{
+            "Status":"1",
+            "Link":"https://sessionize.com/devfest-gdg-bbs-2022/",
+            "LastDate":"2022-11-08"
+        }
+        
     }
 ]
