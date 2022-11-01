@@ -1,121 +1,136 @@
 [
     {
-        "City":"Jalandhar",
-        "CommunityName":"GDG Jalandhar",
-        "DevFestName":"DevFest Jalandhar",
-        "Days":"1",
-        "StartingDate":"2022-10-16",
-        "EndingDate":"2022-10-16",
-        "Venue":"The Cabbana Resort & Spa",
-        "Description":"This DevFest will be an achievement for the GDG Jalandhar Team as we are all set to host the 2000+ developers by connecting the dots which we have started since a month. We started with the theme of Building Developers at DevCommunity Roadshow, then Guiding Developers at DevCreate Hackathon and now, ready with the theme - Supporting Developers.",
-        "EventLink":"https://devfest.gdgjalandhar.com",
-        "CommunityPage":"https://gdg.community.dev/gdg-jalandhar",
-        "Visible":"true",
-        "State":"Punjab",
-        "CFP":{
-            "Status":"0",
-            "Link":"",
-            "LastDate":""
-        }
-        
-    },
-    {
-        "City":"Kolkata",
-        "CommunityName":"GDG Kolkata",
-        "DevFestName":"DevFest Kolkata",
-        "Days":"1",
-        "StartingDate":"2022-11-13",
-        "EndingDate":"2022-11-13",
-        "Venue":"TBD",
-        "Description":"The largest flagship developer conference in Eastern India oragnised by GDG Kolkata.The GDG Kolkata team which has set remarkable achievements by hosting Devfest 18 and 19 with 600+ attendees and over 6000+ registrations and 20+ speakers.",
-        "EventLink":"https://devfest.gdgkolkata.in",
-        "CommunityPage":"https://gdg.community.dev/gdg-kolkata",
-        "Visible":"true",
-        "State":"West Bengal",
-        "CFP":{
-            "Status":"1",
-            "Link":"https://devfest.gdgkolkata.in/cfs",
-            "LastDate":"2022-10-21"
-        }
-        
-    },
-     {
-        "City":"Nagpur",
-        "CommunityName":"GDG Nagpur",
-        "DevFestName":"DevFest Nagpur",
-        "Days":"2",
-        "StartingDate":"2022-11-05",
-        "EndingDate":"2022-11-06",
-        "Venue":"TBD",
-        "Description":"DevFest Nagpur is an initiative by GDG Nagpur with a strong focus on knowledge exchange, networking and learning about technologies to nurture the needs and interests of local developer community ecosystem.",
-        "EventLink":"https://devfestnagpur.in",
-        "CommunityPage":"https://gdg.community.dev/gdg-nagpur/",
-        "Visible":"true",
-        "State":"Maharashtra",
-        "CFP":{
-            "Status":"0",
-            "Link":"",
-            "LastDate":""
-        }
-        
-    },
-    {
-        "City":"Lucknow",
-        "CommunityName":"GDG Lucknow",
-        "DevFestName":"DevFest Lucknow",
-        "Days":"1",
-        "StartingDate":"2022-10-29",
-        "EndingDate":"2022-10-29",
-        "Venue":"Dr. Akhilesh Das Auditorium",
-        "Description":"The biggest developer conference in Uttar Pradesh oragnised by GDG Lucknow. The GDG Lucknow team welcomes everyone to it's first ever Devfest with sessions on domains ranging over Cloud, Web, Android, Flutter, etc",
-        "EventLink":"https://gdg.community.dev/events/details/google-gdg-lucknow-presents-devfest-lucknow-2022/",
-        "CommunityPage":"https://gdg.community.dev/gdg-lucknow/",
-        "Visible":"true",
-        "State":"Uttar Pradesh",
-        "CFP":{
-            "Status":"1",
-            "Link":"https://sessionize.com/devfest-lucknow-2022/",
-            "LastDate":"2022-10-23"
+        "City": "Jalandhar",
+        "CommunityName": "GDG Jalandhar",
+        "DevFestName": "DevFest Jalandhar",
+        "Days": "1",
+        "StartingDate": "2022-10-16",
+        "EndingDate": "2022-10-16",
+        "Venue": "The Cabbana Resort & Spa",
+        "Description": "This DevFest will be an achievement for the GDG Jalandhar Team as we are all set to host the 2000+ developers by connecting the dots which we have started since a month. We started with the theme of Building Developers at DevCommunity Roadshow, then Guiding Developers at DevCreate Hackathon and now, ready with the theme - Supporting Developers.",
+        "EventLink": "https://devfest.gdgjalandhar.com",
+        "CommunityPage": "https://gdg.community.dev/gdg-jalandhar",
+        "Visible": "true",
+        "State": "Punjab",
+        "CFP": {
+            "Status": "0",
+            "Link": "",
+            "LastDate": ""
         }
     },
     {
-        "City":"Chennai",
-        "CommunityName":"GDG Chennai",
-        "DevFestName":"DevFest Chennai",
-        "Days":"2",
-        "StartingDate":"2022-11-12",
-        "EndingDate":"2022-11-13",
-        "Venue":"Le Royal Méridien",
-        "Description":"Chennai's most awaited developer conference.",
-        "EventLink":"https://devfest.gdgchennai.in",
-        "CommunityPage":"https://gdg.community.dev/gdg-chennai/",
-        "Visible":"true",
-        "State":"Tamil Nadu",
-        "CFP":{
-            "Status":"1",
-            "Link":"https://sessionize.com/devfest-chennai-2022",
-            "LastDate":"2022-10-31"
+        "City": "Kolkata",
+        "CommunityName": "GDG Kolkata",
+        "DevFestName": "DevFest Kolkata",
+        "Days": "1",
+        "StartingDate": "2022-11-13",
+        "EndingDate": "2022-11-13",
+        "Venue": "TBD",
+        "Description": "The largest flagship developer conference in Eastern India oragnised by GDG Kolkata.The GDG Kolkata team which has set remarkable achievements by hosting Devfest 18 and 19 with 600+ attendees and over 6000+ registrations and 20+ speakers.",
+        "EventLink": "https://devfest.gdgkolkata.in",
+        "CommunityPage": "https://gdg.community.dev/gdg-kolkata",
+        "Visible": "true",
+        "State": "West Bengal",
+        "CFP": {
+            "Status": "1",
+            "Link": "https://devfest.gdgkolkata.in/cfs",
+            "LastDate": "2022-10-21"
         }
     },
     {
-        "City":"Nashik",
-        "CommunityName":"GDG Nashik",
-        "DevFestName":"DevFest Nashik",
-        "Days":"1",
-        "StartingDate":"2022-11-19",
-        "EndingDate":"2022-11-19",
-        "Venue":"Conference hall, NDMVP COE",
-        "Description":"Largest tech-event in Nashik!",
-        "EventLink":"https://gdg.community.dev/events/details/google-gdg-nashik-presents-devfest-nashik",
-        "CommunityPage":"https://gdg.community.dev/gdg-nashik",
-        "Visible":"true",
-        "State":"Maharashtra",
-        "CFP":{
-            "Status":"1",
-            "Link":"https://sessionize.com/devfest-nashik22/",
-            "LastDate":"2022-11-05"
+        "City": "Nagpur",
+        "CommunityName": "GDG Nagpur",
+        "DevFestName": "DevFest Nagpur",
+        "Days": "2",
+        "StartingDate": "2022-11-05",
+        "EndingDate": "2022-11-06",
+        "Venue": "TBD",
+        "Description": "DevFest Nagpur is an initiative by GDG Nagpur with a strong focus on knowledge exchange, networking and learning about technologies to nurture the needs and interests of local developer community ecosystem.",
+        "EventLink": "https://devfestnagpur.in",
+        "CommunityPage": "https://gdg.community.dev/gdg-nagpur/",
+        "Visible": "true",
+        "State": "Maharashtra",
+        "CFP": {
+            "Status": "0",
+            "Link": "",
+            "LastDate": ""
         }
-        
+    },
+    {
+        "City": "Lucknow",
+        "CommunityName": "GDG Lucknow",
+        "DevFestName": "DevFest Lucknow",
+        "Days": "1",
+        "StartingDate": "2022-10-29",
+        "EndingDate": "2022-10-29",
+        "Venue": "Dr. Akhilesh Das Auditorium",
+        "Description": "The biggest developer conference in Uttar Pradesh oragnised by GDG Lucknow. The GDG Lucknow team welcomes everyone to it's first ever Devfest with sessions on domains ranging over Cloud, Web, Android, Flutter, etc",
+        "EventLink": "https://gdg.community.dev/events/details/google-gdg-lucknow-presents-devfest-lucknow-2022/",
+        "CommunityPage": "https://gdg.community.dev/gdg-lucknow/",
+        "Visible": "true",
+        "State": "Uttar Pradesh",
+        "CFP": {
+            "Status": "1",
+            "Link": "https://sessionize.com/devfest-lucknow-2022/",
+            "LastDate": "2022-10-23"
+        }
+    },
+    {
+        "City": "Chennai",
+        "CommunityName": "GDG Chennai",
+        "DevFestName": "DevFest Chennai",
+        "Days": "2",
+        "StartingDate": "2022-11-12",
+        "EndingDate": "2022-11-13",
+        "Venue": "Le Royal Méridien",
+        "Description": "Chennai's most awaited developer conference.",
+        "EventLink": "https://devfest.gdgchennai.in",
+        "CommunityPage": "https://gdg.community.dev/gdg-chennai/",
+        "Visible": "true",
+        "State": "Tamil Nadu",
+        "CFP": {
+            "Status": "1",
+            "Link": "https://sessionize.com/devfest-chennai-2022",
+            "LastDate": "2022-10-31"
+        }
+    },
+    {
+        "City": "Nashik",
+        "CommunityName": "GDG Nashik",
+        "DevFestName": "DevFest Nashik",
+        "Days": "1",
+        "StartingDate": "2022-11-19",
+        "EndingDate": "2022-11-19",
+        "Venue": "Conference hall, NDMVP COE",
+        "Description": "Largest tech-event in Nashik!",
+        "EventLink": "https://gdg.community.dev/events/details/google-gdg-nashik-presents-devfest-nashik",
+        "CommunityPage": "https://gdg.community.dev/gdg-nashik",
+        "Visible": "true",
+        "State": "Maharashtra",
+        "CFP": {
+            "Status": "1",
+            "Link": "https://sessionize.com/devfest-nashik22/",
+            "LastDate": "2022-11-05"
+        }
+    },
+    {
+        "City": "Raipur",
+        "CommunityName": "GDG Raipur",
+        "DevFestName": "DevFest Raipur",
+        "Days": "1",
+        "StartingDate": "2022-12-16",
+        "EndingDate": "2022-12-18",
+        "Venue": "TBA",
+        "Description": "For the first time the biggest developer conference is here at Raipur, Chhattisgarh oragnised by GDG Raipur. The GDG Raipur team welcomes everyone to it's first ever Devfest with sessions on domains ranging over Cloud, Web, Android, Flutter and ML",
+        "EventLink": "https://gdg.community.dev/events/details/google-gdg-raipur-presents-devfest-raipur-22/",
+        "CommunityPage": "https://gdg.community.dev/gdg-raipur/",
+        "Visible": "true",
+        "State": "Chhattisgarh",
+        "CFP": {
+            "Status": "1",
+            "Link": "https://bit.ly/devfest-raipur-22-cfp/",
+            "LastDate": "2022-11-15"
+        }
     },
     {
         "City":"Bhubaneswar",
@@ -135,6 +150,5 @@
             "Link":"https://sessionize.com/devfest-gdg-bbs-2022/",
             "LastDate":"2022-11-08"
         }
-        
     }
 ]
