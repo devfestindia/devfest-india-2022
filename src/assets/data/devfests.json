@@ -150,5 +150,25 @@
             "Link":"https://sessionize.com/devfest-gdg-bbs-2022/",
             "LastDate":"2022-11-08"
         }
+    },
+    {
+        "City": "Madurai",
+        "CommunityName": "GDG Madurai",
+        "DevFestName": "DevFest Madurai",
+        "Days": "1",
+        "StartingDate": "2022-11-26",
+        "EndingDate": "2022-11-26",
+        "Venue": "TBD",
+        "Description": "This is a biggest developer Festival. Let's celebrate the day together by exchanging our knowledge.",
+        "EventLink": "https://devfest.gdgmadurai.com",
+        "CommunityPage": "https://gdg.community.dev/gdg-madurai",
+        "Visible": "true",
+        "State": "Tamilnadu",
+        "CFP": {
+            "Status": "0",
+            "Link": "",
+            "LastDate": ""
+        }
     }
+    
 ]
