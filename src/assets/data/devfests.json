@@ -150,5 +150,24 @@
             "Link":"https://sessionize.com/devfest-gdg-bbs-2022/",
             "LastDate":"2022-11-08"
         }
+    },
+    {
+        "City": "Pune",
+        "CommunityName": "GDG Pune",
+        "DevFestName": "DevFest Pune",
+        "Days": "1",
+        "StartingDate": "2022-12-11",
+        "EndingDate": "2022-12-11",
+        "Venue": "JW Marriott, Pune",
+        "Description": "After a long wait, we're here with a physical DevFest Pune 2022",
+        "EventLink": "https://devfest.gdgpune.in",
+        "CommunityPage": "https://gdg.community.dev/gdg-pune/",
+        "Visible": "true",
+        "State": "Pune",
+        "CFP": {
+            "Status": "1",
+            "Link": "https://sessionize.com/devfestpune2022",
+            "LastDate": "2022-11-25"
+        }
     }
 ]
