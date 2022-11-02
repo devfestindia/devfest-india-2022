@@ -20,6 +20,15 @@
                     </v-col>
                   </v-row>
                 </v-container>
+                <v-divider class="my-10"></v-divider>
+                <p class="mb-5 google-font" style="font-size: 30px"><b>Past DevFests</b></p>
+                <v-container fluid class="ma-0 pa-0">
+                  <v-row align="start" justify="start">
+                    <v-col md="3" sm="6" v-for="(item, index) in PassedDevFests" :key="index">
+                      <DevFestDialogeVue :item="item" />
+                    </v-col>
+                  </v-row>
+                </v-container>
               </v-col>
             </v-row>
           </v-container>
@@ -39,17 +48,20 @@ export default {
     DevFestDialogeVue,
   },
   data: () => ({
-    data: []
+    data: [],
+    PassedDevFests:[]
   }),
   mounted() {
     const PassedEvents = devfestData.filter((i) => {
       return new Date(i.StartingDate) - new Date().setHours(0,0,0,0) < 0;
     });
+    this.PassedDevFests = PassedEvents
     const ToBeHeldEvents = devfestData.filter((i) => { return new Date(i.StartingDate) - new Date().setHours(0,0,0,0) >= 0; });
     const sortedToBeHeldEvents = ToBeHeldEvents.sort((a, b) => {
       return new Date(a.StartingDate) - new Date(b.StartingDate);
     });
-    const results = [...sortedToBeHeldEvents, ...PassedEvents];
+    // const results = [...sortedToBeHeldEvents, ...PassedEvents];
+    const results = [...sortedToBeHeldEvents];
     this.data = results
   },
   created() {
