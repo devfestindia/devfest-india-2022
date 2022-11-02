@@ -188,5 +188,24 @@
             "Link": "https://sessionize.com/devfestpune2022",
             "LastDate": "2022-11-25"
         }
+    },
+    {
+        "City": "Baroda",
+        "CommunityName": "GDG Baroda",
+        "DevFestName": "DevFest Baroda",
+        "Days": "1",
+        "StartingDate": "2022-12-24",
+        "EndingDate": "2022-12-24",
+        "Venue": "Fairfield by Marriott, Vadodara, Gujarat",
+        "Description": "Described by many as 'The DevFest with most enthusiastic audience in India', our team creates DevFest to be the best place for inspiration and experience sharing. Like every year, GDG Baroda invites Googlers, dignitaries, expert speakers, VIPs, and organizers from other communities, and most importantly, a diverse & enthusiastic audience.",
+        "EventLink": "https://gdg.community.dev/events/details/google-gdg-baroda-presents-gdg-devfest-baroda-2022/",
+        "CommunityPage": "https://gdg.community.dev/gdg-baroda/",
+        "Visible": "true",
+        "State": "Gujarat",
+        "CFP": {
+            "Status": "1",
+            "Link": "https://devfest.gdgbaroda.com",
+            "LastDate": "2022-11-21"
+        }
     }
 ]
