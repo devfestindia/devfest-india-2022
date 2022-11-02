@@ -207,5 +207,24 @@
             "Link": "https://devfest.gdgbaroda.com",
             "LastDate": "2022-11-21"
         }
+    },
+    {
+        "City":"Ranchi",
+        "CommunityName":"GDG Ranchi",
+        "DevFestName":"DevFest Ranchi",
+        "Days":"1",
+        "StartingDate":"2022-12-10",
+        "EndingDate":"2022-12-10",
+        "Venue":"TBD",
+        "Description":"DevFests are local tech conferences hosted by Google Developer Groups (GDG) around the world. Each DevFest event is crafted by its local organizers to fit the needs and interests of its local developer community. Whether it be through hands-on learning experiences, technical talks delivered in local languages by experts, or by simply meeting fellow local developers, DevFest attendees learn how to build together and innovate on Google's developer tools.",
+        "EventLink":"https://gdg.community.dev/events/details/google-gdg-ranchi-presents-devfest-ranchi-2022/",
+        "CommunityPage":"https://gdg.community.dev/gdg-ranchi/",
+        "Visible":"true",
+        "State":"Jharkhand",
+        "CFP":{
+            "Status":"0",
+            "Link":"",
+            "LastDate":""
+        }
     }
 ]
