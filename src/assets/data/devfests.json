@@ -226,5 +226,24 @@
             "Link":"",
             "LastDate":""
         }
+    },
+    {
+        "City":"Jammu",
+        "CommunityName":"GDG Jammu",
+        "DevFestName":"DevFest Jammu",
+        "Days":"1",
+        "StartingDate":"2022-12-3",
+        "EndingDate":"2022-12-3",
+        "Venue":"TBD",
+        "Description":"For the first time the biggest developer conference Devfest is in Jammu (J&K), organised by GDG Jammu. We have invited Googlers, dignitaries, expert speakers, VIPs, and organizers from other communities, and most importantly, a diverse & enthusiastic audience. Let's celebrate the day together by exchanging our knowledge, learning new technology and networking with other. Join us and experience the tech in the City of Temples🛕",
+        "EventLink":"https://www.gdgjammu.com/devfest",
+        "CommunityPage":"https://gdg.community.dev/gdg-jammu/",
+        "Visible":"true",
+        "State":"Jammu",
+        "CFP":{
+            "Status":"1",
+            "Link":"https://sessionize.com/devfestjammu/",
+            "LastDate":"2022-11-21"
+        }
     }
 ]
