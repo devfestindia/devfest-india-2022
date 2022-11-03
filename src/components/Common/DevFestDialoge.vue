@@ -77,7 +77,7 @@
             <v-col md="12" cols="12" class="px-md-10 px-5">
               <p style="font-size: 15px" class="my-0">
                 <b>Date:</b> {{ getDate(item.StartingDate) }} <br />
-                <b>Date:</b> {{ getDate(item.Days) }} <br />
+                <!-- <b>Date:</b> {{ getDate(item.Days) }} <br /> -->
                 <b>Venue:</b> {{ item.Venue }}, {{ item.City }},
                 {{ item.State }}
               </p>
