@@ -245,5 +245,24 @@
             "Link":"https://sessionize.com/devfestjammu/",
             "LastDate":"2022-11-21"
         }
+    },
+    {
+        "City":"Ahmedabad",
+        "CommunityName":"GDG Ahmedabad",
+        "DevFestName":"DevFest Ahmedabad",
+        "Days":"1",
+        "StartingDate":"2022-12-17",
+        "EndingDate":"2022-12-17",
+        "Venue":"Courtyard by Marriott",
+        "Description":"GDG DevFest Ahmedabad brings together the world class experts in Android, Web and Cloud technologies to Ahmedabad for sessions, workshops and showcases.",
+        "EventLink":"https://devfest.gdgahmedabad.com/",
+        "CommunityPage":"https://gdg.community.dev/gdg-ahmedabad/",
+        "Visible":"true",
+        "State":"Gujarat",
+        "CFP":{
+            "Status":"0",
+            "Link":"",
+            "LastDate":""
+        }
     }
 ]
