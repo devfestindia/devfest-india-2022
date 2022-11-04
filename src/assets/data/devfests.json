@@ -264,5 +264,24 @@
             "Link":"",
             "LastDate":""
         }
+    },
+    {
+        "City":"Gandhinagar",
+        "CommunityName":"GDG Gandhinagar",
+        "DevFestName":"DevFest Gandhinagar",
+        "Days":"1",
+        "StartingDate":"2022-11-19",
+        "EndingDate":"2022-11-19",
+        "Venue":"NFSU Gandhinagar",
+        "Description":"GDG DevFest Gandhinagar brings together the experts in Mobile, Web and Cloud technologies to Gandhinagar for sharing thier expertise.",
+        "EventLink":"https://devfest.gdggandhinagar.dev/home",
+        "CommunityPage":"https://gdg.community.dev/gdg-gandhinagar/",
+        "Visible":"true",
+        "State":"Gujarat",
+        "CFP":{
+            "Status":"0",
+            "Link":"",
+            "LastDate":""
+        }
     }
 ]
