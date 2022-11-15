@@ -302,5 +302,25 @@
       "Link": "https://www.commudle.com/fill-form/1533",
       "LastDate": "2022-11-14"
     }
+  },
+  {
+    "City": "Guwahati",
+    "CommunityName": "GDG Guwahati",
+    "DevFestName": "DevFest 2022 - GDG Guwahati",
+    "Days": "1",
+    "StartingDate": "2022-12-3",
+    "EndingDate": "2022-12-3",
+    "Venue": "TBD",
+    "Description": "For the first time in North East, we are having one of the biggest Tech Event as Google Developers Group Community. This tech conference is for everybody who is a tech enthusiast or is interested in exploring the new technologies available in today's world. Come join us for one of the biggest events of all times in NE and also win gift hampers with recognition for active participation.",
+    "EventLink": "https://gdg.community.dev/events/details/google-gdg-guwahati-presents-devfest-2022-gdg-guwahati/",
+    "CommunityPage": "https://gdg.community.dev/gdg-guwahati/",
+    "Visible": "true",
+    "State": "Assam",
+    "CFP": {
+      "Status": "0",
+      "Link": "",
+      "LastDate": ""
+    }
   }
+ 
 ]
