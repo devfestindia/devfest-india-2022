@@ -302,5 +302,24 @@
       "Link": "https://www.commudle.com/fill-form/1533",
       "LastDate": "2022-11-14"
     }
+  },
+  {
+    "City": "Patna",
+    "CommunityName": "GDG Patna",
+    "DevFestName": "DevFest Patna",
+    "Days": "1",
+    "StartingDate": "2022-12-18",
+    "EndingDate": "2022-12-18",
+    "Venue": "CV Raman Hall, NIT Patna",
+    "Description": "Get Ready!! GDG Patna Invites you to grand conference of the year!! Devfest 2022 Patna is taking place physically on 18th December. There are so much to learn when you attend this technical fest at #DevFestPatna! Which got us thinking..Join us to meet experienced developers and from them!",
+    "EventLink": "https://gdg.community.dev/events/details/google-gdg-patna-presents-devfest-patna-2022/",
+    "CommunityPage": "https://gdg.community.dev/gdg-patna/",
+    "Visible": "true",
+    "State": "Bihar",
+    "CFP": {
+      "Status": "0",
+      "Link": "",
+      "LastDate": ""
+    }
   }
 ]
