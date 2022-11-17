@@ -322,7 +322,7 @@
       "LastDate": ""
     }
   },
-   {
+  {
     "City": "Guwahati",
     "CommunityName": "GDG Guwahati",
     "DevFestName": "DevFest 2022 - GDG Guwahati",
@@ -340,6 +340,5 @@
       "Link": "",
       "LastDate": ""
     }
-  },
- 
+  }
 ]
