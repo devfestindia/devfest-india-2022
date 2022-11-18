@@ -359,5 +359,24 @@
       "Link": "",
       "LastDate": ""
     }
+  },
+  {
+    "City": "Noida",
+    "CommunityName": "GDG Noida",
+    "DevFestName": "DevFest Noida",
+    "Days": "1",
+    "StartingDate": "2022-12-11",
+    "EndingDate": "2022-12-11",
+    "Venue": "Radisson Blu, Noida",
+    "Description": "Google Developers Group Noida is a tech community based in Noida, Uttar Pradesh, which is one of the Top IT Cities in the country. We have started our community in 2022 itself and have hosted various events and initiatives to support the developer community in our region, Our aim is to provide continued support to all types of developers, designers, entreprenuers, leaders and students.",
+    "EventLink": "https://gdg.community.dev/events/details/google-gdg-noida-presents-devfest-noida/",
+    "CommunityPage": "https://gdg.community.dev/gdg-noida/",
+    "Visible": "true",
+    "State": "Uttar Pradesh",
+    "CFP": {
+      "Status": "1",
+      "Link": "https://docs.google.com/forms/d/e/1FAIpQLSevM0hpd-hzqa2-vF7z_2c8PC1LdKIqUwyRPr4ddXJZ-AKzkA/viewform",
+      "LastDate": "2022-11-25"
+    }
   }
 ]
