@@ -251,8 +251,8 @@
     "CommunityName": "GDG Jammu",
     "DevFestName": "DevFest Jammu",
     "Days": "1",
-    "StartingDate": "2022-12-3",
-    "EndingDate": "2022-12-3",
+    "StartingDate": "2022-12-19",
+    "EndingDate": "2022-12-19",
     "Venue": "TBD",
     "Description": "For the first time the biggest developer conference Devfest is in Jammu (J&K), organised by GDG Jammu. We have invited Googlers, dignitaries, expert speakers, VIPs, and organizers from other communities, and most importantly, a diverse & enthusiastic audience. Let's celebrate the day together by exchanging our knowledge, learning new technology and networking with other. Join us and experience the tech in the City of Temples🛕",
     "EventLink": "https://www.gdgjammu.com/devfest",
@@ -279,9 +279,9 @@
     "Visible": "true",
     "State": "Gujarat",
     "CFP": {
-      "Status": "0",
-      "Link": "",
-      "LastDate": ""
+      "Status": "1",
+      "Link": "https://sessionize.com/gdg-ahmedabad-devfest-2022/",
+      "LastDate": "2022-11-30"
     }
   },
   {
@@ -377,6 +377,25 @@
       "Status": "1",
       "Link": "https://docs.google.com/forms/d/e/1FAIpQLSevM0hpd-hzqa2-vF7z_2c8PC1LdKIqUwyRPr4ddXJZ-AKzkA/viewform",
       "LastDate": "2022-11-25"
+    }
+  },
+  {
+    "City": "Indore",
+    "CommunityName": "GDG Indore",
+    "DevFestName": "DevFest Indore",
+    "Days": "2",
+    "StartingDate": "2022-12-3",
+    "EndingDate": "2022-12-4",
+    "Venue": "Labh Mandapam Auditorium - Abhay Prashal, 10, Race Course Rd",
+    "Description": "Devfest Indore 2022 is back! It's time to bring back Central India's Biggest Tech event of the year - DevFest Indore 2022. Post pandemic, GDG Cloud Indore is delighted to announce the arrival of DevFest Indore 2022, our largest in-person Tech event of the year.",
+    "EventLink": "https://devfest.gdgindore.in/",
+    "CommunityPage": "https://gdg.community.dev/gdg-indore/",
+    "Visible": "true",
+    "State": "Madhya Pradesh",
+    "CFP": {
+      "Status": "0",
+      "Link": "",
+      "LastDate": ""
     }
   }
 ]
