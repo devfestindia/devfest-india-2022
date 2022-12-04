@@ -416,5 +416,24 @@
       "Link": "",
       "LastDate": ""
     }
+  },
+  {
+    "City":"Thiruvananthapuram",
+    "CommunityName":"GDG Thiruvananthapuram",
+    "DevFestName":"DevFest Thiruvananthapuram",
+    "Days":"1",
+    "StartingDate":"2022-12-10",
+    "EndingDate":"2022-12-10",
+    "Venue":"CDAC Hall, Technopark, Thiruvananthapuram",
+    "Description":"DevFest 2022 is the biggest Google tech conference in Thiruvananthapuram. The magic of DevFest has always come from the people involved - developers from all different backgrounds and skill levels. This global moment empowers developers to teach, learn, and connect when they may need it the most.",
+    "EventLink":"https://devfest.gdgtvpm.org/",
+    "CommunityPage":"https://gdg.community.dev/gdg-thiruvananthapuram",
+    "Visible":"true",
+    "State":"Kerla",
+    "CFP":{
+        "Status":"0",
+        "Link":"",
+        "LastDate":""
+    }
   }
 ]
