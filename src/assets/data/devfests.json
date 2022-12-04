@@ -397,5 +397,24 @@
       "Link": "",
       "LastDate": ""
     }
+  },
+  {
+    "City": "Kanpur",
+    "CommunityName": "GDG Kanpur",
+    "DevFestName": "DevFest Kanpur",
+    "Days": "1",
+    "StartingDate": "2022-12-10",
+    "EndingDate": "2022-12-10",
+    "Venue": "Axis Colleges, Rooma, Kanpur",
+    "Description": "DevFest, the largest developer festival is happening on December 10, 2022 in Kanpur.",
+    "EventLink": "https://gdg.community.dev/e/m644ut/",
+    "CommunityPage": "https://gdg.community.dev/gdg-kanpur",
+    "Visible": "true",
+    "State": "Uttar Pradesh",
+    "CFP": {
+      "Status": "0",
+      "Link": "",
+      "LastDate": ""
+    }
   }
 ]
