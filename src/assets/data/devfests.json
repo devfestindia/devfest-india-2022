@@ -435,5 +435,24 @@
         "Link":"",
         "LastDate":""
     }
-  }
+  },
+  {
+    "City": "Gwalior",
+    "CommunityName": "GDG Gwalior",
+    "DevFestName": "DevFest Gwalior",
+    "Days": "1",
+    "StartingDate": "2022-12-24",
+    "EndingDate": "2022-12-24",
+    "Venue": "B.S.F ACADEMY - TEKANPUR Gwalior, 474005",
+    "Description": "We are thrilled to announce our next global community-driven tech event DevFest’2022 on 24th December 2022 at Rustamji Institute of Technology, Tekanpur Gwalior (Madhya Pradesh)-474005.DevFest is a global community-driven tech conference, hosted by the Google Developer Groups (GDG) community. Each DevFest event is crafted by its GDG organizers to fit the learning needs and interests of their local developer community, with a strong focus on knowledge exchange, networking, and learning about Google developer technologies..",
+    "EventLink": "https://gdg.community.dev/events/details/google-gdg-gwalior-presents-devfest-2022-gdg-gwalior/",
+    "CommunityPage": "https://gdg.community.dev/gdg-gwalior/",
+    "Visible": "true",
+    "State": "Madhya Pradesh",
+    "CFP": {
+      "Status": "0",
+      "Link": "",
+      "LastDate": ""
+    }
+  }  
 ]
